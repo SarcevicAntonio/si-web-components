@@ -11,6 +11,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 
+  <!-- Import Paper Button -->
+  <script type="module">
+    import '@polymer/paper-button/paper-button.js';
+  </script>
 
 
 </head>
@@ -30,6 +34,13 @@
       <br><br>
 
 
+      <!-- Using Paper Button -->
+      <paper-button raised>fancy new paper-button</paper-button>
+      <br><br>
+      <paper-button class="pink">pink</paper-button>
+      <paper-button raised class="indigo">raised</paper-button>
+      <paper-button toggles raised class="green">toggles</paper-button>
+      <paper-button disabled class="disabled">disabled</paper-button>
 
 
     </div>

@@ -1,7 +1,10 @@
 component specs:
 
 - button with number that increases on click
-- number (count) can be set from outside through attribute
+- number (count) can be set from outside through attribute like this:
+```html
+  <my-counter count="30"></my-counter>
+```
 
 general:
 

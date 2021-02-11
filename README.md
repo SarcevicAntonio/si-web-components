@@ -1,3 +1,13 @@
-simple examples of using and creating webcomponents created for class.
+component specs:
 
-use polymer cli to run "using_wc"
+- button with number that increases on click
+- number (count) can be set from outside through attribute
+
+general:
+
+- index.html is our entry website
+
+- /native/ contains native HTMLElement-based Web Component implementation
+
+- /svelte/ contains svelte project with svelte based implementation
+  - note: build svelte web component using `npm run build` so index.html can import the bundle.js

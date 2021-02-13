@@ -8,8 +8,15 @@
     <!-- Import Web Components -->
     <script src="./native/my-counter.js"></script>
     <script src="./svelte/public/build/bundle.js"></script>
+    <script nomodule src="./stencil/www/build/stencil-counter.js"></script>
+    <script
+      type="module"
+      src="./stencil/www/build/stencil-counter.esm.js"
+    ></script>
+
     <style>
-      html, body {
+      html,
+      body {
         margin: 0;
         height: 100%;
       }
@@ -41,6 +48,12 @@
         <td>Svelte (with {customElement: true})</td>
         <td>
           <my-svelte-counter count="30"></my-svelte-counter>
+        </td>
+      </tr>
+      <tr>
+        <td>Stencil</td>
+        <td>
+          <stencil-counter count="30"></stencil-counter>
         </td>
       </tr>
     </table>

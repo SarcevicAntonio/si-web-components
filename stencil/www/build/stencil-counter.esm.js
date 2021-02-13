@@ -1,0 +1,1 @@
+import{p as t,b as n}from"./p-8a2e8dc1.js";(()=>{const n=import.meta.url,o={};return""!==n&&(o.resourcesUrl=new URL(".",n).href),t(o)})().then((t=>n([["p-d7224009",[[1,"stencil-counter",{count:[2]}]]]],t)));

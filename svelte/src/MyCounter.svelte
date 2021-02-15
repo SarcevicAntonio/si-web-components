@@ -1,6 +1,7 @@
 <svelte:options tag="my-svelte-counter" />
 
 <script>
+  // 603 chars
   export let count = 0;
   function inc() {
     count++;

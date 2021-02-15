@@ -1,3 +1,4 @@
+// 1462 chars
 const counterTemplate = document.createElement("template");
 counterTemplate.innerHTML = `
 <style>

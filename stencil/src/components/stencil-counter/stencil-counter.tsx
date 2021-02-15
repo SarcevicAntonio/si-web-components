@@ -1,3 +1,4 @@
+// 753 chars
 import { Component, h, Prop } from '@stencil/core';
 
 @Component({

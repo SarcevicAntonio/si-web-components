@@ -13,8 +13,10 @@ general:
 
   - note: you can serve this file with `npx serve` or a different way to start a local server
 
-- /native/ contains native HTMLElement-based Web Component implementation
+- /native/ contains [native HTMLElement-based Web Component implementation](https://github.com/SarcevicAntonio/si-web-components/blob/master/native/my-counter.js)
 
-- /svelte/ contains svelte project with svelte based implementation
+- /svelte/ contains svelte project with [svelte based implementation](https://github.com/SarcevicAntonio/si-web-components/blob/master/svelte/src/MyCounter.svelte)
 
-- /stencil/ contains stencil project with stencil based implementation
+- /stencil/ contains stencil project with [stencil based implementation](https://github.com/SarcevicAntonio/si-web-components/blob/master/stencil/src/components/stencil-counter/stencil-counter.tsx)
+
+![preview of the index.html](https://i.imgur.com/6kJHw97.png)

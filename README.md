@@ -11,7 +11,7 @@ general:
 
 - index.html is our entry website
 
-  - note: you can serve this file with `npx http-server` or a different way to start a local server
+  - note: you can serve this file with `npx serve` or a different way to start a local server
 
 - /native/ contains native HTMLElement-based Web Component implementation
 

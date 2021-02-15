@@ -18,3 +18,5 @@ general:
 - /svelte/ contains svelte project with svelte based implementation
 
 - /stencil/ contains stencil project with stencil based implementation
+
+![preview of the index.html](https://i.imgur.com/6kJHw97.png)

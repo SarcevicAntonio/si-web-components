@@ -1,6 +1,20 @@
-simple examples of using and creating webcomponents created for class.
+component specs:
 
-use polymer cli to run "using_wc"
+- button with number that increases on click
+- number (count) can be set from outside through attribute like this:
 
+```html
+<my-counter count="30"></my-counter>
+```
 
-Visit https://github.com/SarcevicAntonio/si-web-components/tree/already-deprecated for example with stencil
+general:
+
+- index.html is our entry website
+
+  - note: you can serve this file with `npx http-server` or a different way to start a local server
+
+- /native/ contains native HTMLElement-based Web Component implementation
+
+- /svelte/ contains svelte project with svelte based implementation
+
+- /stencil/ contains stencil project with stencil based implementation

@@ -20,3 +20,5 @@ general:
 - [/stencil/ contains stencil project with stencil based implementation](https://github.com/SarcevicAntonio/si-web-components/blob/master/stencil/src/components/stencil-counter/stencil-counter.tsx)
 
 ![preview of the index.html](https://i.imgur.com/6kJHw97.png)
+
+[Web Component Slides](https://docs.google.com/presentation/d/1EBzGPoSnaU-f1qZF1cMVDvOGJ1Hj6N7o_JymO2PnJgU/edit?usp=sharing)

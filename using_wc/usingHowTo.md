@@ -20,5 +20,5 @@ npm install --save @polymer/paper-button
 
 4. For Demo: Run using
 ```
-polymer serve
+npx snowpack dev
 ```

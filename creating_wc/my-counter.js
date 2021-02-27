@@ -44,7 +44,7 @@ class MyCounter extends HTMLElement {
   }
 
   disconnectedCallback() {
-    this.shadowRoot.getElementById("count").removeEventListener("click");
+    this.shadowRoot.getElementById("inc").removeEventListener("click");
   }
 
   static get observedAttributes() {

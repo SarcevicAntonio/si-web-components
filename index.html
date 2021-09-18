@@ -9,7 +9,10 @@
     <script src="./native/my-counter.js"></script>
     <script src="./svelte/public/build/bundle.js"></script>
     <script nomodule src="./stencil/www/build/stencil-counter.js"></script>
-    <script type="module" src="./stencil/www/build/stencil-counter.esm.js"></script>
+    <script
+      type="module"
+      src="./stencil/www/build/stencil-counter.esm.js"
+    ></script>
 
     <style>
       html,
@@ -36,19 +39,37 @@
         <th>component</th>
       </tr>
       <tr>
-        <td>HTMLElement</td>
+        <td>
+          <a
+            href="https://github.com/SarcevicAntonio/si-web-components/blob/master/native/my-counter.js"
+          >
+            HTMLElement
+          </a>
+        </td>
         <td>
           <my-counter count="30"></my-counter>
         </td>
       </tr>
       <tr>
-        <td>Svelte (with {customElement: true})</td>
+        <td>
+          <a
+            href="https://github.com/SarcevicAntonio/si-web-components/blob/master/svelte/src/MyCounter.svelte"
+          >
+            Svelte (with {customElement: true})
+          </a>
+        </td>
         <td>
           <my-svelte-counter count="30"></my-svelte-counter>
         </td>
       </tr>
       <tr>
-        <td>Stencil</td>
+        <td>
+          <a
+            href="https://github.com/SarcevicAntonio/si-web-components/blob/master/stencil/src/components/stencil-counter/stencil-counter.tsx"
+          >
+            Stencil
+          </a>
+        </td>
         <td>
           <stencil-counter count="30"></stencil-counter>
         </td>

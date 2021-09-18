@@ -1,3 +1,5 @@
+# An exploration of creating Web Components
+
 component specs:
 
 - button with number that increases on click
@@ -7,11 +9,15 @@ component specs:
 <my-counter count="30"></my-counter>
 ```
 
+[View counter components written in Vanilla JS, Svelte and Stencil in action!](https://sarcevicantonio.github.io/si-web-components/)
+
 general:
 
 - index.html is our entry website
 
-  - note: you can serve this file with `npx serve` or a different way to start a local server
+  - visit https://sarcevicantonio.github.io/si-web-components/
+
+  - or you can serve this file in a locally cloned repo using `npx serve` or any other local server
 
 - [/native/ contains native HTMLElement-based Web Component implementation](https://github.com/SarcevicAntonio/si-web-components/blob/master/native/my-counter.js)
 
